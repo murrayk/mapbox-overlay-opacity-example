@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D2443BE184C9D6700EEC843 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D2443BD184C9D6700EEC843 /* libz.dylib */; };
 		7DBCEAFD1848E15D003E74E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DBCEAFC1848E15D003E74E6 /* Foundation.framework */; };
 		7DBCEAFF1848E15D003E74E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DBCEAFE1848E15D003E74E6 /* CoreGraphics.framework */; };
 		7DBCEB011848E15D003E74E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DBCEB001848E15D003E74E6 /* UIKit.framework */; };
@@ -21,6 +22,10 @@
 		7DBCEB1E1848E15D003E74E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DBCEB001848E15D003E74E6 /* UIKit.framework */; };
 		7DBCEB261848E15D003E74E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DBCEB241848E15D003E74E6 /* InfoPlist.strings */; };
 		7DBCEB281848E15D003E74E6 /* MapBoxOpacityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBCEB271848E15D003E74E6 /* MapBoxOpacityTests.m */; };
+		7DBCEB551848F5DF003E74E6 /* libMapBox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DBCEB501848F477003E74E6 /* libMapBox.a */; };
+		7DBCEB571848F5E9003E74E6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DBCEB561848F5E9003E74E6 /* CoreLocation.framework */; };
+		7DBCEB591848F5F6003E74E6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DBCEB581848F5F6003E74E6 /* QuartzCore.framework */; };
+		7DBCEB5B1848F60E003E74E6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DBCEB5A1848F60E003E74E6 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,9 +36,31 @@
 			remoteGlobalIDString = 7DBCEAF81848E15D003E74E6;
 			remoteInfo = MapBoxOpacity;
 		};
+		7DBCEB4F1848F477003E74E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DBCEB4A1848F476003E74E6 /* MapView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 17F31EFA1331050A00122B16;
+			remoteInfo = MapView;
+		};
+		7DBCEB511848F477003E74E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DBCEB4A1848F476003E74E6 /* MapView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DD6A83751644A20C0097F31F;
+			remoteInfo = Resources;
+		};
+		7DBCEB531848F521003E74E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DBCEB4A1848F476003E74E6 /* MapView.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B8C974130E8A19B2007D16AD;
+			remoteInfo = MapView;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D2443BD184C9D6700EEC843 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		7DBCEAF91848E15D003E74E6 /* MapBoxOpacity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapBoxOpacity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DBCEAFC1848E15D003E74E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7DBCEAFE1848E15D003E74E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +80,10 @@
 		7DBCEB231848E15D003E74E6 /* MapBoxOpacityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapBoxOpacityTests-Info.plist"; sourceTree = "<group>"; };
 		7DBCEB251848E15D003E74E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7DBCEB271848E15D003E74E6 /* MapBoxOpacityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapBoxOpacityTests.m; sourceTree = "<group>"; };
+		7DBCEB4A1848F476003E74E6 /* MapView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MapView.xcodeproj; path = "../mapbox-ios-sdk/MapView/MapView.xcodeproj"; sourceTree = "<group>"; };
+		7DBCEB561848F5E9003E74E6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7DBCEB581848F5F6003E74E6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7DBCEB5A1848F60E003E74E6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +91,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D2443BE184C9D6700EEC843 /* libz.dylib in Frameworks */,
+				7DBCEB5B1848F60E003E74E6 /* libsqlite3.dylib in Frameworks */,
+				7DBCEB591848F5F6003E74E6 /* QuartzCore.framework in Frameworks */,
+				7DBCEB571848F5E9003E74E6 /* CoreLocation.framework in Frameworks */,
+				7DBCEB551848F5DF003E74E6 /* libMapBox.a in Frameworks */,
 				7DBCEAFF1848E15D003E74E6 /* CoreGraphics.framework in Frameworks */,
 				7DBCEB011848E15D003E74E6 /* UIKit.framework in Frameworks */,
 				7DBCEAFD1848E15D003E74E6 /* Foundation.framework in Frameworks */,
@@ -82,6 +118,7 @@
 		7DBCEAF01848E15D003E74E6 = {
 			isa = PBXGroup;
 			children = (
+				7DBCEB4A1848F476003E74E6 /* MapView.xcodeproj */,
 				7DBCEB021848E15D003E74E6 /* MapBoxOpacity */,
 				7DBCEB211848E15D003E74E6 /* MapBoxOpacityTests */,
 				7DBCEAFB1848E15D003E74E6 /* Frameworks */,
@@ -101,6 +138,10 @@
 		7DBCEAFB1848E15D003E74E6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7D2443BD184C9D6700EEC843 /* libz.dylib */,
+				7DBCEB5A1848F60E003E74E6 /* libsqlite3.dylib */,
+				7DBCEB581848F5F6003E74E6 /* QuartzCore.framework */,
+				7DBCEB561848F5E9003E74E6 /* CoreLocation.framework */,
 				7DBCEAFC1848E15D003E74E6 /* Foundation.framework */,
 				7DBCEAFE1848E15D003E74E6 /* CoreGraphics.framework */,
 				7DBCEB001848E15D003E74E6 /* UIKit.framework */,
@@ -152,6 +193,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7DBCEB4B1848F476003E74E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DBCEB501848F477003E74E6 /* libMapBox.a */,
+				7DBCEB521848F477003E74E6 /* MapBox.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -166,6 +216,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				7DBCEB541848F521003E74E6 /* PBXTargetDependency */,
 			);
 			name = MapBoxOpacity;
 			productName = MapBoxOpacity;
@@ -216,6 +267,12 @@
 			mainGroup = 7DBCEAF01848E15D003E74E6;
 			productRefGroup = 7DBCEAFA1848E15D003E74E6 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7DBCEB4B1848F476003E74E6 /* Products */;
+					ProjectRef = 7DBCEB4A1848F476003E74E6 /* MapView.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				7DBCEAF81848E15D003E74E6 /* MapBoxOpacity */,
@@ -223,6 +280,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7DBCEB501848F477003E74E6 /* libMapBox.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMapBox.a;
+			remoteRef = 7DBCEB4F1848F477003E74E6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7DBCEB521848F477003E74E6 /* MapBox.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MapBox.bundle;
+			remoteRef = 7DBCEB511848F477003E74E6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		7DBCEAF71848E15D003E74E6 /* Resources */ = {
@@ -271,6 +345,11 @@
 			isa = PBXTargetDependency;
 			target = 7DBCEAF81848E15D003E74E6 /* MapBoxOpacity */;
 			targetProxy = 7DBCEB1F1848E15D003E74E6 /* PBXContainerItemProxy */;
+		};
+		7DBCEB541848F521003E74E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MapView;
+			targetProxy = 7DBCEB531848F521003E74E6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -381,7 +460,13 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MapBoxOpacity/MapBoxOpacity-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/mapbox-ios-sdk\"/**",
+				);
 				INFOPLIST_FILE = "MapBoxOpacity/MapBoxOpacity-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,7 +479,13 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MapBoxOpacity/MapBoxOpacity-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/mapbox-ios-sdk\"/**",
+				);
 				INFOPLIST_FILE = "MapBoxOpacity/MapBoxOpacity-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -461,6 +552,7 @@
 				7DBCEB2D1848E15D003E74E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DBCEB2E1848E15D003E74E6 /* Build configuration list for PBXNativeTarget "MapBoxOpacityTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +561,7 @@
 				7DBCEB301848E15D003E74E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
