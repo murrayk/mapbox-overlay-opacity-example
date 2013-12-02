@@ -22,15 +22,15 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     RMOpenStreetMapSource * openStreetMap = [[RMOpenStreetMapSource alloc] init];
-    RMGenericMapSource * historicMap = [[RMGenericMapSource alloc] initWithHost:@"tile.openweathermap.org/map/clouds" tileCacheKey:@"cloudCover" minZoom:0 maxZoom:18];
+    RMGenericMapSource * weatherMap = [[RMGenericMapSource alloc] initWithHost:@"tile.openweathermap.org/map/clouds" tileCacheKey:@"cloudCover" minZoom:0 maxZoom:18];
     
     
     self.mapView.tileSource = openStreetMap;
     
     
-    [self.mapView addTileSource:historicMap];
+    [self.mapView addTileSource:weatherMap];
     
-    self.overlay = historicMap;
+    self.overlay = weatherMap;
     // rough bb W = -30.0 degrees; E = 50.0 degrees; S = +35.0 degrees; N = +70.0 degrees
     NSLog(@"zooming to europe");
     CLLocationCoordinate2D northEastLondon = CLLocationCoordinate2DMake(70,-30);
