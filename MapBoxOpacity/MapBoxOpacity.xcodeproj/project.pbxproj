@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D207362184CAD0100467075 /* MapBox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7DBCEB521848F477003E74E6 /* MapBox.bundle */; };
 		7D2443BE184C9D6700EEC843 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D2443BD184C9D6700EEC843 /* libz.dylib */; };
 		7DBCEAFD1848E15D003E74E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DBCEAFC1848E15D003E74E6 /* Foundation.framework */; };
 		7DBCEAFF1848E15D003E74E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DBCEAFE1848E15D003E74E6 /* CoreGraphics.framework */; };
@@ -303,6 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D207362184CAD0100467075 /* MapBox.bundle in Resources */,
 				7DBCEB151848E15D003E74E6 /* Images.xcassets in Resources */,
 				7DBCEB071848E15D003E74E6 /* InfoPlist.strings in Resources */,
 				7DBCEB101848E15D003E74E6 /* Main.storyboard in Resources */,
