@@ -33,9 +33,9 @@
     self.overlay = weatherMap;
     // rough bb W = -30.0 degrees; E = 50.0 degrees; S = +35.0 degrees; N = +70.0 degrees
     NSLog(@"zooming to europe");
-    CLLocationCoordinate2D northEastLondon = CLLocationCoordinate2DMake(70,-30);
-    CLLocationCoordinate2D southWestLondon = CLLocationCoordinate2DMake(35,50);
-    [self.mapView zoomWithLatitudeLongitudeBoundsSouthWest:southWestLondon northEast:northEastLondon animated:YES];
+    CLLocationCoordinate2D northEastEurope = CLLocationCoordinate2DMake(70,-30);
+    CLLocationCoordinate2D southWestEurope= CLLocationCoordinate2DMake(35,50);
+    [self.mapView zoomWithLatitudeLongitudeBoundsSouthWest:southWestEurope northEast:northEastEurope animated:YES];
     
     [self.mapView setOpacity:0.5 forTileSource: self.overlay];
     
