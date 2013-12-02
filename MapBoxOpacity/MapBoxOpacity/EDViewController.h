@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+@class RMMapView;
 
 @interface EDViewController : UIViewController
+@property (weak, nonatomic) IBOutlet RMMapView *mapView;
 
 @end
